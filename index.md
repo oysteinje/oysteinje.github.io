@@ -5,10 +5,13 @@ title:  Index
 
 # INDEX
 
-<ul>
-  {% for post in site.posts %}
+{%- if site.posts.size > 0 -%}
+  <ul>
+    {%- for post in site.posts -%}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      {%- assign date_format = "%Y-%m-%d" -%}
+      [ {{ post.date | date: date_format }} ] <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
     </li>
-  {% endfor %}
-</ul>
+    {%- endfor -%}
+  </ul>
+{%- endif -%}
