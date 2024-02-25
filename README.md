@@ -1,2 +1,2 @@
-# First Title
-This is a paragraph.
+# Øystein Stræte's Cloud Notes
+
