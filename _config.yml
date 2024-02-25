@@ -1,6 +1,6 @@
 remote_theme: b2a3e8/jekyll-theme-console
 title: Øystein Stræte's Cloud Notes
 header_pages:
-  - index.md
+  - index
   - about.md
 style: dark # dark (default), light or hacker
