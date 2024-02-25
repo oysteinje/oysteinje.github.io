@@ -3,6 +3,6 @@ layout: default
 title:  About
 ---
 
-# About page
+# Øystein Stræte
 
 Cloud Architech with a focus on Azure, PowerShell, Linux, Emacs, Kubernetes.
